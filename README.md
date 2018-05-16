@@ -27,10 +27,10 @@
 
 1. Run `ng build --prod` to build the project. --prod flag (production build) runs optimazations to make the app smaller and faster. Building creates a dist folder with build artifacts. 
 2. (option 1) Grab all files in dist folder, excluding .txt and .ico, and upload to a server. If uploading to a sub folder such as url.com/: `ng build --prod --base-href="myUrl"`
-2. (option 2) Deploy to GitHub Pages. Use cli tool: `npm install -g angular-cli-ghpages`. Installs on computer.
+2. (option 2) Deploy to GitHub Pages. Use cli tool: Run `npm install -g angular-cli-ghpages`. Installs on computer.
 3. Create GitHub Repo and push code up.
-4. `ng build --prod --base-href="https://userName.github.io/repoName/"`
-5. angular-sli-ghpages
+4. Run `ng build --prod --base-href="https://userName.github.io/repoName/"`
+5. Run `angular-cli-ghpages`
 6. Go to https://userName.github.io/repoName/
 
 ## Running unit tests
