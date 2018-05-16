@@ -31,7 +31,7 @@ https://chareesa.github.io/basic-angular-5/
 2. (option 2) Deploy to GitHub Pages. Use cli tool: Run `npm install -g angular-cli-ghpages`. Installs on computer.
 3. Create GitHub Repo and push code up.
 4. Run `ng build --prod --base-href="https://userName.github.io/repoName/"`
-5. Run `angular-cli-ghpages`
+5. Run `angular-cli-ghpages` (if there's an error, run `ngh --dir dist/[PROJECTNAME]`)
 6. Go to https://userName.github.io/repoName/
 
 ## Running unit tests
